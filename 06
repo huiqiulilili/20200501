@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*id选择器： #id名称{}
+            id必须保证全局唯一！
+            不遵循就近原则，固定的
+            id选择器 > class选择器  > 标签选择器
+        */
+        #lyx{
+            color: cornflowerblue;
+        }
+        #lkr{
+            color: chartreuse;
+        }
+        h1{
+            color: red;
+        }
+        .biaoti{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="biaoti" id="lyx">刘雨昕</h1>
+    <h1 id="lkr" >陆柯燃</h1>
+    <h1 class="biaoti">郑爽</h1>
+</body>
+</html>
+
+
+<!-- 总结：
+ 1、标签选择器：选择一类标签  标签{}
+ 2、类选择器 class：选择所有class属性一致的标签，跨标签   .类名{}
+ 3、id 选择器：全局唯一  #id名{}
+
+ -->
